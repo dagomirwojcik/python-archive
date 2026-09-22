@@ -10,8 +10,11 @@ system.
 
 ```text
 calculators/
+  CubesCalculator/             Sum, average, and sum-of-cubes calculator
   MarkCalculator/              Mark input helpers and validation examples
   ModuleGradeCalculator/       Module marks, pass/fail results, and statistics
+  QuadraticRootsCalculator/    Quadratic-equation root calculator
+  TemperatureConverter/        Celsius/Fahrenheit converter
   WageCalculatorProgram/       Employee wage and commission calculator
 demonstrations/
   FuctionDemonstrator/         Examples of reusable input functions
@@ -36,9 +39,7 @@ validation-tools/
 - No third-party packages are required
 
 There is no shared package, dependency manifest, or build file, so commands
-are run from each exercise's directory. Some folders also contain Visual
-Studio Python project files (`.pyproj`), but the scripts can be run directly
-with the Python interpreter.
+are run from each exercise's directory.
 
 ## Running the examples
 
@@ -61,6 +62,28 @@ python ModuleGradeCalculator.py
 Enter a module name, the number of students, and each student's mark to
 display a pass/fail report and summary statistics.
 
+### Other calculators
+
+Each calculator can be run directly from its own directory:
+
+```text
+cd calculators/CubesCalculator
+python CubesCalculator.py
+
+cd ../QuadraticRootsCalculator
+python QuadraticRootsCalculator.py
+
+cd ../TemperatureConverter
+python TemperatureConverter.py
+
+cd ../WageCalculatorProgram
+python Wage_Calculator_Program.py
+```
+
+The cube calculator reports the sum, average, and sum of cubes for three
+numbers. The quadratic-roots calculator uses the quadratic formula, and the
+temperature converter accepts values ending in `C` or `F`.
+
 ### Student management
 
 ```text
@@ -79,6 +102,16 @@ python InspirationalQuotes.py
 
 The program selects a random line from `inspirationalquotes.txt`, so run it
 from this directory to keep the relative file path available.
+
+### Grade information
+
+```text
+cd information-systems/GradeInformation
+python GradeInformationProgram.py
+```
+
+This example collects student marks and prints a sorted report with pass/fail
+results and summary statistics.
 
 ### Letter quantity tool
 

@@ -1,0 +1,14 @@
+3.2 Roots of a Quadratic Equation
+
+Consider the quadratic equation: A * x**2 + B * x + C = 0 where x is the unknown and A, B and C are constants (with A not equal to 0). Note that here we use the Python notation for exponents (two asterisks). A quadratic equation has two solutions (called roots), which may not be distinct values, and which may not be real values.
+
+1. Start
+2. Use variables: A, B, C root1and root2 of type floating-point
+3. Input values for A, B and C
+4. Print the inputted values for A, B and C
+5. Calculate the discriminant d=sqrt(B*B-4*A*C)
+6. Calculate the roots
+• root1=(-B+d)/(2*A)
+• root2=(-B-d)/(2*A)
+7. Print root1, root2
+8. End

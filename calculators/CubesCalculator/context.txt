@@ -1,0 +1,9 @@
+3.1. Write a Python script that calculates the sum, average and sum of cubes of 3 numbers stored in the variables a,b,c.
+
+1. Start
+2. Impute values for a, b, and c variables.
+3. Calculate the sum: tot = a + b + c
+4. Calculate the average: average = tot / 3
+5. Calculate the sum of cubes: sum_of_cubes = a^3 + b^3 + c^3
+6. Print the results: Print tot, average, and sum_of_cubes
+7. End
