@@ -1,0 +1,4 @@
+Write a program to determine whether a given year is a leap year. A year is a leap year if any of the following conditions are satisfied:
+
+1. The year is multiple of 400 (e.g., 2000).
+2. The year is a multiple of 4 and not a multiple of 100 (eg. 2032).

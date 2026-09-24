@@ -10,7 +10,9 @@ system.
 
 ```text
 calculators/
+  BirthdayCalculator/          Birthday and age calculations
   CubesCalculator/             Sum, average, and sum-of-cubes calculator
+  EmployeePayCalculator/       Employee wage and pay calculations
   MarkCalculator/              Mark input helpers and validation examples
   ModuleGradeCalculator/       Module marks, pass/fail results, and statistics
   QuadraticRootsCalculator/    Quadratic-equation root calculator
@@ -29,6 +31,7 @@ information-systems/
 text-tools/
   LetterQunatityTool/          Letter-frequency counter for text
 validation-tools/
+  LeapYearChecker/             Leap year validation example
   StudentIDValidator/          Student ID lookup and validation example
   VariableNameChecker/         Checks whether a variable name is valid
 ```
@@ -67,8 +70,14 @@ display a pass/fail report and summary statistics.
 Each calculator can be run directly from its own directory:
 
 ```text
-cd calculators/CubesCalculator
+cd calculators/BirthdayCalculator
+python BirthdayCalculator.py
+
+cd ../CubesCalculator
 python CubesCalculator.py
+
+cd ../EmployeePayCalculator
+python EmployeePayCalculator.py
 
 cd ../QuadraticRootsCalculator
 python QuadraticRootsCalculator.py
@@ -83,6 +92,22 @@ python Wage_Calculator_Program.py
 The cube calculator reports the sum, average, and sum of cubes for three
 numbers. The quadratic-roots calculator uses the quadratic formula, and the
 temperature converter accepts values ending in `C` or `F`.
+
+### Validation helpers
+
+```text
+cd validation-tools/LeapYearChecker
+python LeapYearChecker.py
+
+cd ../StudentIDValidator
+python StudentIDValidator.py
+
+cd ../VariableNameChecker
+python VariableNameChecker.py
+```
+
+These examples validate common inputs such as leap years, student IDs, and
+variable naming rules.
 
 ### Student management
 

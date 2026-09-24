@@ -1,0 +1,9 @@
+Write a Python program that calculates an employee's pay based on their regular hours and overtime hours worked in a week. The standard workweek is 40 hours, and any hours worked beyond that are considered overtime. An employee must receive overtime pay for hours worked over 40 in a work week at a rate of 1.5 times regular rates of pay. The hourly wage is £22. 
+
+1. Input the employee's name and number of hours worked in a week.
+2. Calculate the total pay for regular hours.
+3. If the employee worked more than 40 hours, calculate the overtime pay.
+4. Calculate the total pay in a week.
+5. Print the employee's name, regular pay, overtime pay and the total pay.
+
+Note: This program is unrelated to the WageCalculatorProgram - this is a different scenario.

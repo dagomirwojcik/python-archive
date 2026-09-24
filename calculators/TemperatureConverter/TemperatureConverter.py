@@ -49,17 +49,18 @@ print()
 temperature = input("Enter your temperature -> ")
 
 # Check the last character of the input to determine if it's in Fahrenheit or Celsius, and perform the appropriate conversion.
+
 if temperature[-1] in ["F", "f"]:
     farenheight = float(temperature[:-1])
     celsius = (farenheight - 32) * 5 / 9
 
-    print("Here's your result ->" ,int(celsius),"°C")
+    print("Here's your result ->" , int(celsius), "°C")
 
 elif temperature[-1] in ["C", "c"]:
     celsius = float(temperature[:-1])
     farenheight = celsius * 9 / 5 + 32
 
-    print("Here's your result ->" ,int(farenheight),"°F")
+    print("Here's your result ->" , int(farenheight), "°F")
 
 # If the input does not end with 'F' or 'C', print an error message indicating invalid input.
     
