@@ -1,0 +1,13 @@
+Create a Python program to manage the guest list for a party. The program should allow you to add guests, remove guests, and print the current guest list. Here are the tasks you need to complete:
+
+1. Initialize an empty list to store the guests. 
+2. Create a function add_guest to add a guest to the list. This function should take the guest's name asinput and append it to the guest list. It should also print a message confirming that the guest hasbeen added.
+3. Create a function remove_guest to remove a guest from the list. This function should ask for theguest's name and check if it's in the guest list. If the name is found, it should be removed from thelist, and a confirmation message should be printed. If the name is not in the list, it should print amessage saying that the guest is not on the list.
+4. Create a function print_guest_list to print the current guest list sorted alphabetically ascending.
+5. Implement a main program loop that provides a menu for the user with the following options:
+    Add a guest (A)
+    Remove a guest (R)
+    Print guest list (P)
+    Quit the program (Q) 
+    If the user enters a choice that is not A, R, P, or Q, the program should print "Invalid choice. Pleasechoose a valid option (A,R,P or Q)." 
+    Provide a "Quit" option (choice Q) to exit the program with printing the total number of guest anda "Goodbye! See you in the party!" message.

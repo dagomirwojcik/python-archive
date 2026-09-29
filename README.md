@@ -20,12 +20,14 @@ calculators/
   WageCalculatorProgram/       Employee wage and commission calculator
 demonstrations/
   FuctionDemonstrator/         Examples of reusable input functions
+  ListFunctionDemonstrator/    Demonstration of list-related helper functions
 file-based-programs/
   InspirationalQuotes/         Random quote reader using a text file
 games/
   RockPaperScissorsGame/       Rock-paper-scissors game against the computer
 information-systems/
   GradeInformation/            Student grade lookup by student ID
+  PartyGuestList/              Guest list management exercise
   ProductDatabase/             Interactive product database exercise
   StudentManagement/           Interactive student list management
 text-tools/
@@ -137,6 +139,28 @@ python GradeInformationProgram.py
 
 This example collects student marks and prints a sorted report with pass/fail
 results and summary statistics.
+
+### Party guest list
+
+```text
+cd information-systems/PartyGuestList
+python PartyGuestList.py
+```
+
+This exercise manages a guest list and demonstrates simple list operations.
+
+### Demonstration scripts
+
+```text
+cd demonstrations/FuctionDemonstrator
+python FuctionDemonstrator.py
+
+cd ../ListFunctionDemonstrator
+python ListFunctionDemonstrator.py
+```
+
+These examples highlight reusable input helpers and list-based programming
+patterns.
 
 ### Letter quantity tool
 

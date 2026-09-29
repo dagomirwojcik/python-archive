@@ -1,0 +1,31 @@
+Write a Python program that uses a list of gaming platforms and demonstrates how different list functions work.
+
+Create a list called my_list with the following values:
+['PlayStation', 'Xbox', 'Steam', 'iOS', 'Google Play']
+
+Your program should include the following functions:
+
+1. create_list()
+   - Returns the list ['PlayStation', 'Xbox', 'Steam', 'iOS', 'Google Play']
+
+2. get_info(my_list)
+   - Returns a tuple containing:
+     - the first element
+     - the second last element
+     - the number of elements in the list
+
+3. get_partial(my_list)
+   - Returns a new list containing the 2nd, 3rd and 4th elements in the original order
+
+4. get_last_three(my_list)
+   - Returns a new list containing the last three elements from my_list in reverse order
+
+5. double_list(my_list)
+   - Returns a new list that concatenates two copies of my_list
+
+6. amend(my_list)
+   - Returns a new list where:
+     - the 2nd element is changed to None
+     - 'Bye' is added to the end of the list
+
+Then create a test list and print the results of each function to verify the program works.
