@@ -1,0 +1,15 @@
+1. In this task, you will design a program which display a census report of the numbers and percentages of houses with particular numbers of occupants in a road.
+2. When the program starts, it should ask the user 8 times about houses with occupancy of 0 to 6, plus 6+to count the numbers of houses with particular numbers of occupants. 
+    For each question, the user should enter a digit for the number of houses, e.g.:• Please note there is a space after the colon mark. 
+    This step should be implemented in a function named get_data().• The function will return all the 8 integer values entered by the user.
+3. After user entered the data, the program will calculate the percentage of each occupancy category.
+    For example, if the total house is 35 and the house with 0 occupant is 2, the percentage ofhouses with 0 occupancy is 5.7%. This is because (2/35) * 100 is 5.7%.
+    This step should be implemented in a function named cal_percentage().
+    The function should take 8 parameters of the house number for each occupancy category. The order of the parameters must be the same as the user entered in step 2.
+    The function will return 8 float values for percentages of each occupancy category in the same order.
+4. When the calculation finished, the program outputs the census result as below:
+    The output must comply with the width specification given above.
+    Read this article to find out more about setting format.• This step should be implemented in a function named display_result().
+    The function takes 16 parameters. The first 8 are for the house number of each occupancycategory and second 8 are for the corresponding percentages.
+    The output of the function should follow the specification above.
+5. To sum up, in the program, it should include definition of the three functions you have created and the necessary codes to run the program.

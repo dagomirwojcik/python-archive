@@ -27,6 +27,7 @@ games/
   RockPaperScissorsGame/       Rock-paper-scissors game against the computer
 information-systems/
   GradeInformation/            Student grade lookup by student ID
+  HousingOccupancyReport/      House counts and percentages by occupancy
   PartyGuestList/              Guest list management exercise
   ProductDatabase/             Interactive product database exercise
   StudentManagement/           Interactive student list management
@@ -139,6 +140,16 @@ python GradeInformationProgram.py
 
 This example collects student marks and prints a sorted report with pass/fail
 results and summary statistics.
+
+### Housing occupancy report
+
+```text
+cd information-systems/HousingOccupancyReport
+python HousingOccupancyReport.py
+```
+
+Enter the number of houses in each occupancy group to display the count and
+percentage for each group.
 
 ### Party guest list
 

@@ -1,0 +1,6 @@
+Create a program that takes three parameters; two numbers and one string. The string is used toindicate the arithmetic operation to apply on the two numbers. The program output should looklike the following:
+ 
+    The program must use an if statement that uses the sign operator string to decide onthe arithmetic operation to be done on the two numbers (See above example).
+    The program should returns the answer plus an explanation. For example, if the userinputs 7, then 5 and then *, the program should return “multiplying 7 by 5 = 35” 
+    The program should be able to call 4 functions to perform 4 arithmetic operations andthese are add, subtract, multiply and divide.
+    Then create a function calculator to implement the actual calculator.
