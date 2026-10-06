@@ -1,0 +1,14 @@
+You are given the following list of fruits:
+
+wish_fruit = ["Apple", "banana", "Mango"]
+
+Write a program that:
+
+1. Asks the user to choose a fruit by entering its **index**  
+   (0 for the first fruit, 1 for the second, etc.).
+
+2. Uses a **try-except** block to handle:
+   - `IndexError` if the user enters an index not in the list.
+   - `ValueError` if the user enters something that is not a number.
+
+3. Uses a **finally** block to print: Thank you for choosing a fruit! regardless of whether an exception occurs.

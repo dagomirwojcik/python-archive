@@ -33,7 +33,9 @@ information-systems/
   StudentManagement/           Interactive student list management
 text-tools/
   LetterQunatityTool/          Letter-frequency counter for text
+  TextAnalysisTool/             Word-frequency analysis for text
 validation-tools/
+  FruitPickerProgram/           Fruit selection with input-error handling
   LeapYearChecker/             Leap year validation example
   StudentIDValidator/          Student ID lookup and validation example
   VariableNameChecker/         Checks whether a variable name is valid
@@ -99,6 +101,9 @@ temperature converter accepts values ending in `C` or `F`.
 ### Validation helpers
 
 ```text
+cd validation-tools/FruitPickerProgram
+python FruitPickerProgram.py
+
 cd validation-tools/LeapYearChecker
 python LeapYearChecker.py
 
@@ -110,7 +115,8 @@ python VariableNameChecker.py
 ```
 
 These examples validate common inputs such as leap years, student IDs, and
-variable naming rules.
+variable naming rules. The fruit picker demonstrates handling invalid numeric
+input and out-of-range list indexes.
 
 ### Student management
 
@@ -182,6 +188,16 @@ python LetterQunatityTool.py
 
 Enter a word or sentence to display the number of occurrences of each letter
 of the alphabet.
+
+### Text analysis tool
+
+```text
+cd text-tools/TextAnalysisTool
+python TextAnalysisTool.py
+```
+
+This exercise defines a text-analysis class that normalizes text and provides
+word-frequency counts.
 
 ## Supporting examples
 
