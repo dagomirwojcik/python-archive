@@ -19,7 +19,9 @@ calculators/
   TemperatureConverter/        Celsius/Fahrenheit converter
   WageCalculatorProgram/       Employee wage and commission calculator
 demonstrations/
+  ClassesAndObjects/           Notebook on classes, objects, attributes, and methods
   FuctionDemonstrator/         Examples of reusable input functions
+  IntroToPandasAndNumpy/        Notebook introducing NumPy arrays and Pandas data frames
   ListFunctionDemonstrator/    Demonstration of list-related helper functions
 file-based-programs/
   InspirationalQuotes/         Random quote reader using a text file
@@ -36,6 +38,7 @@ text-tools/
   TextAnalysisTool/             Word-frequency analysis for text
 validation-tools/
   FruitPickerProgram/           Fruit selection with input-error handling
+  ExceptionHandling/           Notebook on Python exceptions and handling patterns
   LeapYearChecker/             Leap year validation example
   StudentIDValidator/          Student ID lookup and validation example
   VariableNameChecker/         Checks whether a variable name is valid
@@ -44,7 +47,9 @@ validation-tools/
 ## Requirements
 
 - Python 3.6 or newer
-- No third-party packages are required
+- Standalone scripts require no third-party packages
+- The Jupyter notebooks require Jupyter and the libraries used in each notebook,
+  including Matplotlib, NumPy, Pandas, and scikit-learn
 
 There is no shared package, dependency manifest, or build file, so commands
 are run from each exercise's directory.
@@ -178,6 +183,22 @@ python ListFunctionDemonstrator.py
 
 These examples highlight reusable input helpers and list-based programming
 patterns.
+
+### Demonstration notebooks
+
+Open these notebooks in JupyterLab or VS Code:
+
+```text
+demonstrations/ClassesAndObjects/ClassesAndObjects.ipynb
+demonstrations/IntroToPandasAndNumpy/IntroToPandasAndNumpy.ipynb
+validation-tools/ExceptionHandling/ExceptionHandling.ipynb
+```
+
+The classes notebook covers classes, objects, attributes, and methods. The
+exception-handling notebook demonstrates common exceptions and `try`/`except`
+patterns. The NumPy and Pandas notebook introduces arrays and data frames; it
+also loads example datasets from the internet and references a local
+`california_housing_train.csv` file.
 
 ### Letter quantity tool
 
