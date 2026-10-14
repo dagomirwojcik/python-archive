@@ -23,6 +23,7 @@ demonstrations/
   FuctionDemonstrator/         Examples of reusable input functions
   IntroToPandasAndNumpy/        Notebook introducing NumPy arrays and Pandas data frames
   ListFunctionDemonstrator/    Demonstration of list-related helper functions
+  StudentsPerformanceClassifications/ Notebook exploring student performance classification
 file-based-programs/
   InspirationalQuotes/         Random quote reader using a text file
 games/
@@ -49,7 +50,7 @@ validation-tools/
 - Python 3.6 or newer
 - Standalone scripts require no third-party packages
 - The Jupyter notebooks require Jupyter and the libraries used in each notebook,
-  including Matplotlib, NumPy, Pandas, and scikit-learn
+  including Matplotlib, NumPy, Pandas, scikit-learn, and Seaborn
 
 There is no shared package, dependency manifest, or build file, so commands
 are run from each exercise's directory.
@@ -191,6 +192,7 @@ Open these notebooks in JupyterLab or VS Code:
 ```text
 demonstrations/ClassesAndObjects/ClassesAndObjects.ipynb
 demonstrations/IntroToPandasAndNumpy/IntroToPandasAndNumpy.ipynb
+demonstrations/StudentsPerformanceClassifications/StudentsPerformanceClassification.ipynb
 validation-tools/ExceptionHandling/ExceptionHandling.ipynb
 ```
 
@@ -198,7 +200,9 @@ The classes notebook covers classes, objects, attributes, and methods. The
 exception-handling notebook demonstrates common exceptions and `try`/`except`
 patterns. The NumPy and Pandas notebook introduces arrays and data frames; it
 also loads example datasets from the internet and references a local
-`california_housing_train.csv` file.
+`california_housing_train.csv` file. The student-performance notebook uses
+Seaborn and scikit-learn to explore student scores and train classification
+models; it expects a local `StudentsPerformance.csv` dataset.
 
 ### Letter quantity tool
 
