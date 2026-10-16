@@ -12,6 +12,7 @@ system.
 calculators/
   BirthdayCalculator/          Birthday and age calculations
   CubesCalculator/             Sum, average, and sum-of-cubes calculator
+  CustomCalculator/            Interactive arithmetic calculator
   EmployeePayCalculator/       Employee wage and pay calculations
   MarkCalculator/              Mark input helpers and validation examples
   ModuleGradeCalculator/       Module marks, pass/fail results, and statistics
@@ -19,6 +20,7 @@ calculators/
   TemperatureConverter/        Celsius/Fahrenheit converter
   WageCalculatorProgram/       Employee wage and commission calculator
 demonstrations/
+  CaliforniaHousePricing/      Notebook exploring and predicting California house prices
   ClassesAndObjects/           Notebook on classes, objects, attributes, and methods
   FuctionDemonstrator/         Examples of reusable input functions
   IntroToPandasAndNumpy/        Notebook introducing NumPy arrays and Pandas data frames
@@ -83,6 +85,9 @@ Each calculator can be run directly from its own directory:
 ```text
 cd calculators/BirthdayCalculator
 python BirthdayCalculator.py
+
+cd ../CustomCalculator
+python CustomCalculator.py
 
 cd ../CubesCalculator
 python CubesCalculator.py
@@ -191,6 +196,7 @@ Open these notebooks in JupyterLab or VS Code:
 
 ```text
 demonstrations/ClassesAndObjects/ClassesAndObjects.ipynb
+demonstrations/CaliforniaHousePricing/CaliforniaHousePricing.ipynb
 demonstrations/IntroToPandasAndNumpy/IntroToPandasAndNumpy.ipynb
 demonstrations/StudentsPerformanceClassifications/StudentsPerformanceClassification.ipynb
 validation-tools/ExceptionHandling/ExceptionHandling.ipynb
@@ -198,11 +204,13 @@ validation-tools/ExceptionHandling/ExceptionHandling.ipynb
 
 The classes notebook covers classes, objects, attributes, and methods. The
 exception-handling notebook demonstrates common exceptions and `try`/`except`
-patterns. The NumPy and Pandas notebook introduces arrays and data frames; it
-also loads example datasets from the internet and references a local
-`california_housing_train.csv` file. The student-performance notebook uses
-Seaborn and scikit-learn to explore student scores and train classification
-models; it expects a local `StudentsPerformance.csv` dataset.
+patterns. The California house pricing notebook explores housing data and
+compares regression models; it expects a local `housing.csv` file. The NumPy
+and Pandas notebook introduces arrays and data frames; it also loads example
+datasets from the internet and references a local `california_housing_train.csv`
+file. The student-performance notebook uses Seaborn and scikit-learn to explore
+student scores and train classification models; it expects a local
+`StudentsPerformance.csv` dataset.
 
 ### Letter quantity tool
 
